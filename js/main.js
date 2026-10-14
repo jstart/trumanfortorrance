@@ -17,12 +17,39 @@
     var nav = (navigator.language || "en").toLowerCase().slice(0, 2);
     return codes.indexOf(nav) >= 0 ? nav : "en";
   }
+  var toolText = {
+    en: { size: "Larger text", print: "Print" },
+    es: { size: "Texto más grande", print: "Imprimir" },
+    ko: { size: "큰 글씨", print: "인쇄" },
+    ja: { size: "大きい文字", print: "印刷" },
+    zh: { size: "放大文字", print: "列印" }
+  };
+  function setToolLabels(lang) {
+    var sizeBtn = document.getElementById("size-toggle"), printBtn = document.getElementById("print-btn");
+    if (sizeBtn) sizeBtn.querySelector(".tool__label").textContent = toolText[lang].size;
+    if (printBtn) printBtn.querySelector(".tool__label").textContent = toolText[lang].print;
+  }
+  function setSize(large) {
+    document.documentElement.setAttribute("data-size", large ? "large" : "normal");
+    var b = document.getElementById("size-toggle");
+    if (b) b.setAttribute("aria-pressed", large ? "true" : "false");
+    try { localStorage.setItem("senior-guide-size", large ? "large" : "normal"); } catch (e) {}
+  }
+  function initTools() {
+    var large = false;
+    try { large = localStorage.getItem("senior-guide-size") === "large"; } catch (e) {}
+    setSize(large);
+    var b = document.getElementById("size-toggle"), p = document.getElementById("print-btn");
+    if (b) b.addEventListener("click", function () { setSize(document.documentElement.getAttribute("data-size") !== "large"); });
+    if (p) p.addEventListener("click", function () { window.print(); });
+  }
   function show(lang, card) {
     codes.forEach(function (c) { document.getElementById("lang-" + c).hidden = c !== lang; });
     Array.prototype.forEach.call(links, function (a) {
       a.setAttribute("aria-current", a.getAttribute("data-lang") === lang ? "true" : "false");
     });
     document.documentElement.lang = langAttr[lang];
+    setToolLabels(lang);
     try { localStorage.setItem("senior-guide-lang", lang); } catch (e) {}
     var target = card ? document.getElementById(lang + "-" + card) : null;
     if (target) { target.scrollIntoView(); } else { window.scrollTo(0, 0); }
@@ -35,5 +62,6 @@
     if (history.replaceState) history.replaceState(null, "", "#" + lang);
   }
   window.addEventListener("hashchange", route);
+  initTools();
   route();
 })();

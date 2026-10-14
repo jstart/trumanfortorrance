@@ -50,6 +50,13 @@ With no hash, the page opens in the visitor's last language or browser language.
 Prepared by Christopher Truman, a Torrance resident, as an individual. Not an official City,
 County, State, or Commission on Aging document.
 
+## Reader tools
+
+- Jump links: a sticky row of chips under the intro scrolls to each program. Card ids: `trash`, `tax`, `care`, `medicare`, `food`, `hip`, `focal`.
+- "Larger text" button (header): scales the page to 125% and remembers the choice in the browser.
+- "Print" button (header): prints the guide in the visitor's language with links written out. Print styles are at the bottom of `css/styles.css`.
+- Each language footer asks readers to email info@trumanfortorrance.com about mistakes. Make sure that address forwards (Porkbun email forwarding).
+
 ## Yearly checklist
 
 Recheck these each fall (the property tax window opens October 1) and whenever a program announces changes,
