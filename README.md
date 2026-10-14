@@ -16,7 +16,7 @@ plain HTML, CSS, and vanilla JS, with a `CNAME` for the custom domain.
 | `/senior-resources/#en`, `#es`, `#ko`, `#ja`, `#zh` | The guide in that language |
 | `/senior-resources/#es-tax` | Spanish, scrolled to the property tax card |
 | `/senior-en`, `/senior-es`, `/senior-ko`, `/senior-ja`, `/senior-zh` | Short paths that redirect to the matching `/senior-resources/#xx` |
-| `/senior-trash`, `/senior-hip`, `/senior-focal` | Short paths to that card, in the visitor's language |
+| `/senior-trash`, `/senior-tax`, `/senior-hip`, `/senior-focal` | Short paths to that card, in the visitor's language |
 
 Short links exist only for this site's own pages, never for outside resources. Outside programs
 are linked directly from each card.
