@@ -49,3 +49,17 @@ With no hash, the page opens in the visitor's last language or browser language.
 
 Prepared by Christopher Truman, a Torrance resident, as an individual. Not an official City,
 County, State, or Commission on Aging document.
+
+## Yearly checklist
+
+Recheck these each fall (the property tax window opens October 1) and whenever a program announces changes,
+then update `senior-resources/index.html` (all five languages) and the "Last updated" line in each footer.
+
+- Trash and utility tax: monthly trash rates (City rate table, changes every July 1) and the income limit on the City's UUT exemption application (indexed each year, $39,900 for the 2025 calendar year).
+- Property Tax Postponement: filing window, household income limit, interest rate, and mailing address (State Controller's application package).
+- CARE and FERA: income limits and discount percentages (SCE flyer, effective June 1).
+- Medicare costs: Part B premium.
+- CalFresh: links and any age or income changes.
+- Home Improvement Program: HUD income limits (published each April) and services list.
+- Focal Point on Aging: phone number and hours.
+- Translations: have fluent speakers review, then remove the draft-translation banner.
