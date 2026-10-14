@@ -1,20 +1,21 @@
-# Truman for Torrance: Senior Benefits Guide
+# Truman for Torrance
 
-One-page static site that lists discounts and benefits for Torrance seniors and people with
-disabilities, in English, Spanish, Korean, Japanese, and Chinese (Traditional).
+Static site. The home page (`/`) is a generic placeholder to fill in later. The Senior Resources Guide
+lives at `/senior-resources/`: discounts and benefits for Torrance seniors and people with disabilities,
+in English, Spanish, Korean, Japanese, and Chinese (Traditional).
 
 **Live site (once DNS is set):** https://trumanfortorrance.com/
 
 No build step. Edit files and push to `main`. Layout follows the `wfplasouthbay` repo:
 plain HTML, CSS, and vanilla JS, with a `CNAME` for the custom domain.
 
-## Link directly to a language or a card
+## Senior Resources Guide: link to a language or a card (`/senior-resources/`)
 
 | Link | Shows |
 |------|-------|
-| `/#en`, `/#es`, `/#ko`, `/#ja`, `/#zh` | The guide in that language |
-| `/#es-tax` | Spanish, scrolled to the property tax card |
-| `/senior-en`, `/senior-es`, `/senior-ko`, `/senior-ja`, `/senior-zh` | Short paths that redirect to the matching `/#xx` |
+| `/senior-resources/#en`, `#es`, `#ko`, `#ja`, `#zh` | The guide in that language |
+| `/senior-resources/#es-tax` | Spanish, scrolled to the property tax card |
+| `/senior-en`, `/senior-es`, `/senior-ko`, `/senior-ja`, `/senior-zh` | Short paths that redirect to the matching `/senior-resources/#xx` |
 | `/senior-trash`, `/senior-hip`, `/senior-focal` | Short paths to that card, in the visitor's language |
 
 Short links exist only for this site's own pages, never for outside resources. Outside programs
@@ -27,7 +28,8 @@ With no hash, the page opens in the visitor's last language or browser language.
 
 | To change | Edit |
 |-----------|------|
-| Card text or translations | `index.html` (one `<div class="lang">` per language) |
+| Home page | `index.html` |
+| Guide text or translations | `senior-resources/index.html` (one `<div class="lang">` per language) |
 | Colors, fonts, layout | `css/styles.css` (tokens at the top) |
 | Language switching | `js/main.js`, `js/config.js` |
 | Short-link targets | the `senior-*/index.html` files |
