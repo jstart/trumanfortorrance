@@ -1,4 +1,4 @@
-// Language switching by URL hash: #es, #ko, #ja, #zh, #en. A card can be targeted as #es-tax.
+// Language switching by URL hash: #es, #ko, #ja, #zh, #en. A card can be targeted as #es-tax, or as #tax in the visitor's language.
 (function () {
   var codes = SITE_CONFIG.languages;
   var langAttr = { en: "en", es: "es", ko: "ko", ja: "ja", zh: "zh-Hant" };
@@ -6,7 +6,9 @@
 
   function parse(hash) {
     var m = /^#(en|es|ko|ja|zh)(?:-([a-z]+))?$/.exec(hash || "");
-    return m ? { lang: m[1], card: m[2] || "" } : null;
+    if (m) return { lang: m[1], card: m[2] || "" };
+    var c = /^#(trash|tax|care|medicare|food|hip|focal)$/.exec(hash || "");
+    return c ? { lang: guess(), card: c[1] } : null;
   }
   function guess() {
     var saved = "";

@@ -73,4 +73,4 @@ h1 { margin: 0; font-family: var(--font-display); font-weight: 600; font-size: c
 .foot span { max-width: 60rem; }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 
-.nowrap { white-space: nowrap; }
+.phone { white-space: nowrap; font-weight: 700; font-size: 1.12em; color: var(--color-accent); background: var(--color-accent-soft); padding: .05em .4em; border-radius: .25rem; }

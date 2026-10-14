@@ -14,8 +14,11 @@ plain HTML, CSS, and vanilla JS, with a `CNAME` for the custom domain.
 |------|-------|
 | `/#en`, `/#es`, `/#ko`, `/#ja`, `/#zh` | The guide in that language |
 | `/#es-tax` | Spanish, scrolled to the property tax card |
-| `/es/`, `/ko/`, `/ja/`, `/zh/`, `/en/` | Short paths that redirect to the matching `/#xx` |
-| `/trash/`, `/tax/`, `/care/`, `/food/`, `/hip/`, `/focal/` | Short paths that redirect to the official program page |
+| `/senior-en`, `/senior-es`, `/senior-ko`, `/senior-ja`, `/senior-zh` | Short paths that redirect to the matching `/#xx` |
+| `/senior-trash`, `/senior-hip`, `/senior-focal` | Short paths to that card, in the visitor's language |
+
+Short links exist only for this site's own pages, never for outside resources. Outside programs
+are linked directly from each card.
 
 Card ids: `trash`, `tax`, `care`, `medicare`, `food`, `hip`, `focal`.
 With no hash, the page opens in the visitor's last language or browser language.
@@ -27,7 +30,7 @@ With no hash, the page opens in the visitor's last language or browser language.
 | Card text or translations | `index.html` (one `<div class="lang">` per language) |
 | Colors, fonts, layout | `css/styles.css` (tokens at the top) |
 | Language switching | `js/main.js`, `js/config.js` |
-| Short-link targets | `trash/`, `tax/`, `care/`, `food/`, `hip/`, `focal/` `index.html` files |
+| Short-link targets | the `senior-*/index.html` files |
 
 ## Custom domain (GitHub Pages)
 
