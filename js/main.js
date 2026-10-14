@@ -52,7 +52,15 @@
     setToolLabels(lang);
     try { localStorage.setItem("senior-guide-lang", lang); } catch (e) {}
     var target = card ? document.getElementById(lang + "-" + card) : null;
-    if (target) { target.scrollIntoView(); } else { window.scrollTo(0, 0); }
+    if (target) {
+      target.scrollIntoView({ behavior: "instant", block: "start" });
+      // Fonts and layout can shift after load, so settle on the card once they are ready.
+      if (document.fonts && document.fonts.ready) {
+        document.fonts.ready.then(function () { target.scrollIntoView({ behavior: "instant", block: "start" }); });
+      }
+    } else {
+      window.scrollTo({ top: 0, behavior: "instant" });
+    }
   }
   function route() {
     var p = parse(location.hash);
