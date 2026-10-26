@@ -80,7 +80,7 @@ and Print controls run through `js/main.js`; language routing applies only to tr
 guides. `hillside.css` adds only evidence-image, table, filter and print rules. No build
 step or runtime dependency was added.
 
-- `hillside-overlay/index.html`: three-case decision explainer, selected overlay background,
+- `hillside-overlay/index.html`: five-case decision explainer, selected overlay background,
   reform timeline, Susana visuals, source citations and research limits.
 - `hillside-overlay/review.html`: decision-source ledger with optional client-side filtering.
 - `hillside-overlay/expanded-search.html`: rendered expanded follow-through findings.
@@ -88,7 +88,7 @@ step or runtime dependency was added.
   two-page Susana PDF. `asset-provenance.json` records SHA-256 hashes for copied assets.
 - CSV/JSON companions preserve the supplied comparison, source ledger and permit-stage snapshot.
 
-The newer three-case decision package replaces the older briefing's unresolved Doris Way
+The integrated decision guide replaces the older briefing's unresolved Doris Way
 status and Via Linda Vista agenda lead. The Susana Council tally remains unresolved.
 The timeline distinguishes the announced August 30 deadline from the later statement
 reporting acceptance through August 31; a year-end expectation is not a scheduled hearing.
@@ -121,3 +121,24 @@ Recheck Tax-Aide's expected February 2027 restart before adding actual appointme
 Measure W's current-year forms/deadlines, PACE's office move, and the distinction between
 standard ESA and the closing Whole Home pilot. Do not copy old modeled participation
 gaps or proposed program expansions into benefit eligibility text.
+
+## Hillside recent Council supplement — October 26, 2026
+
+The `recent_council_2026-10-26` dashboard package adds September 1 comparisons for
+459 Via El Chico (neighboring ADU/SB 9 scope, not applicant main-house HAA treatment)
+and 317 Calle Mayor (conventional hillside review). The five-case CSV/JSON and visible
+cards retain those distinctions. Revised September minutes record Via Linda Vista's
+Resolution 2026-77 garage denial, resolving that entitlement action without deciding the
+separate October ADU clearance.
+
+October 6 staff history describes a May denial and September direction toward approval
+for the separate senior mixed-use project. This conflicts with the archived Resolution
+2026-46 May approval certification. Both sources are retained and flagged in the page,
+source registry and review ledger; final October action and operative signed resolutions
+remain unresolved. An HCD referral is not an enforcement finding.
+
+Selected staff-report excerpts, revised September minutes, and October staff history are
+in `hillside-overlay/sources/`; provenance retains full-packet hashes and original excerpt
+page ranges. Five supplemental sources extend the 24-source ledger to 29 entries.
+Agendas were screened through October 20; this is not a complete permit census, and
+project-specific decisions do not establish adoption of new standards.

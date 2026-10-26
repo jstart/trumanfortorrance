@@ -73,35 +73,41 @@
       "file": "comparison.csv",
       "source_package": "decision_explainer",
       "source_file": "comparison.csv",
-      "sha256": "c61140d9a8f31cf5913df60982338734d2a48325b1f281e3cb2dd37ba7e68f40",
+      "sha256": "5b65ce4e6bd219fdf776ab7c1f5383298e45bebfd6e3891e4e279dd8bc5de63f",
       "original_sha256": "1cea1de12463ab6fb8126aa9904357e7427784826bb17ab67c3d02ecfc9c5648",
-      "adaptation": "CSV line endings normalized to LF; field values unchanged."
+      "adaptation": "Updated with the recent Council supplement: five-case comparison, September garage denial, and senior mixed-use certification conflict. CSV line endings use LF."
     },
     {
       "file": "comparison.json",
       "source_package": "decision_explainer",
       "source_file": "comparison.json",
-      "sha256": "01e71f16dbb884ad13f417984d5324d7fe17b25fed002cc12979678569cafe5a"
+      "sha256": "30236f8de8c58be72341276f26fa2279335714698f55bb9ecf0f998216255529",
+      "original_sha256": "01e71f16dbb884ad13f417984d5324d7fe17b25fed002cc12979678569cafe5a",
+      "adaptation": "Updated with the recent Council supplement: five-case comparison, September garage denial, and senior mixed-use certification conflict. CSV line endings use LF."
     },
     {
       "file": "source_reviews.csv",
       "source_package": "decision_explainer",
       "source_file": "source_reviews.csv",
-      "sha256": "b5bc14845ec466f8eb1596bf04673a93146ac3b7eeb9fae9c91c5edff093346b",
+      "sha256": "bb90e3da5d4b03f0633c51ba906dca4090b8cf657b7867f5bd9e1d9ea1f4b5ff",
       "original_sha256": "111e97e49dd9c1d5f2ffa82d8fc61503e8119b267a5c2557933c5272a736734f",
-      "adaptation": "CSV line endings normalized to LF; field values unchanged."
+      "adaptation": "Updated with the recent Council supplement: five-case comparison, September garage denial, and senior mixed-use certification conflict. CSV line endings use LF."
     },
     {
       "file": "source_reviews.json",
       "source_package": "decision_explainer",
       "source_file": "source_reviews.json",
-      "sha256": "e923ca78da84bd887828c67ec155b064e94d31c62534eb368be609234545f94d"
+      "sha256": "3ae73b880e2e57cdcfde9bdde866278b531bd3e30f8b449e65a15892663ed262",
+      "original_sha256": "e923ca78da84bd887828c67ec155b064e94d31c62534eb368be609234545f94d",
+      "adaptation": "Updated with the recent Council supplement: five-case comparison, September garage denial, and senior mixed-use certification conflict. CSV line endings use LF."
     },
     {
       "file": "sources.json",
       "source_package": "decision_explainer",
       "source_file": "sources.json",
-      "sha256": "8733f60b3a369935b668a9febe8c8249062e33efade94a37500d0409ec8f7d8c"
+      "sha256": "b72b2de2b49b20ba5abb187dccd9aa16c7e1eccc633218f527417e8acb76eecf",
+      "original_sha256": "8733f60b3a369935b668a9febe8c8249062e33efade94a37500d0409ec8f7d8c",
+      "adaptation": "Updated with the recent Council supplement: five-case comparison, September garage denial, and senior mixed-use certification conflict. CSV line endings use LF."
     },
     {
       "file": "via_public_record_summary.json",
@@ -168,6 +174,60 @@
       "source_package": "susana_hearing_sources_2026-10-26",
       "source_file": "planning_commission_staff_report_2025-03-19.pdf",
       "sha256": "4c30bad94b28c2eea89757e9de0de620d64096be920098324a1d313a7b6d1b39"
+    },
+    {
+      "file": "sources/via_el_chico_staff_excerpt.pdf",
+      "source_package": "recent_council_2026-10-26",
+      "source_file": "via_el_chico_staff_excerpt.pdf",
+      "sha256": "f36c10c0ac8a4dbf9a4e84a92bf184502b812640a6ad5f1207c422a10a485319",
+      "official_url": "https://torranceca.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=cbc67fd3-4ba5-4a6b-ac03-66761cfea296",
+      "original_packet_sha256": "6cc4fd4fffb3aa0428d4702c8f82423d371d84fce87fb610b18593c5313ce541",
+      "excerpt_original_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "file": "sources/calle_mayor_staff_excerpt.pdf",
+      "source_package": "recent_council_2026-10-26",
+      "source_file": "calle_mayor_staff_excerpt.pdf",
+      "sha256": "84fdf7334b83f492976cdff162377b1ce9f59ea6d414bf59fe5676d42579d63e",
+      "official_url": "https://torranceca.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=f4811ba5-2f85-4be1-8372-893df8d7680e",
+      "original_packet_sha256": "6f41cbd6a2e72d36ff01b4d7c175d2659ed0bc27ae61ecc910c393b2056b76cc",
+      "excerpt_original_pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "file": "sources/minutes_corrections.pdf",
+      "source_package": "recent_council_2026-10-26",
+      "source_file": "minutes_corrections.pdf",
+      "sha256": "93b4b2a1d8b5372f9b98ddedaa7c4f97be82fdcead22cbd53bd294323027cb2a",
+      "official_url": "https://torranceca.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=50cd9a4c-47d5-4141-b6da-b97ca2b0230b"
+    },
+    {
+      "file": "sources/senior_october_staff.pdf",
+      "source_package": "recent_council_2026-10-26",
+      "source_file": "senior_october_staff.pdf",
+      "sha256": "6b41f7c8c6a40356ff390e075165f0e17d882c872fbe1c4ea62653f72701caaa",
+      "official_url": "https://torranceca.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=b487f618-1926-402f-95a5-62158c8157ff"
+    },
+    {
+      "file": "sources/via_denial_staff.pdf",
+      "source_package": "recent_council_2026-10-26",
+      "source_file": "via_denial_staff.pdf",
+      "sha256": "b3afa44111b67a1ecca93d612a39d090b38dc974e45255063012cc3ca7c3d0e8",
+      "official_url": "https://torranceca.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=b46b7f85-2e08-4957-b4e3-5a557bb46b25"
     }
   ]
 }

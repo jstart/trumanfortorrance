@@ -22,7 +22,7 @@
     "address": "5340 Doris Way",
     "tier": "Staff HAA explanation in official minutes",
     "classification": "main_house_haa_minutes",
-    "protected_scope": "January 15, 2025 minutes record staff explaining HAA protection for the two-unit proposal, including the two-story primary dwelling. The Commission approved the case and adopted Resolution 24-070, 7\u20130.",
+    "protected_scope": "January 15, 2025 minutes record staff explaining HAA protection for the two-unit proposal, including the two-story primary dwelling. The Commission approved the case and adopted Resolution 24-070, 7–0.",
     "retained_review": "The minutes expressly say local ordinances still apply. The signed resolution and its operative conditions have not been recovered, so the exact treatment of individual hillside findings remains unresolved.",
     "design_change": "Current applications describe a 2,953-square-foot main house and a 469-square-foot attached ADU. No comparable earlier/approved plan pair has been recovered; whether an ADU was introduced after a house-only version is unknown.",
     "decision": "The November 2024 hearing was postponed for re-noticing. January 2025 minutes document approval and adoption; a later appeal outcome has not been established.",
@@ -40,15 +40,49 @@
     "tier": "ADU-specific scope; garage review retained",
     "classification": "adu_only_no_main_house_haa_established",
     "protected_scope": "The August 2026 staff packet excludes the separately proposed second-story ADU from discretionary review of the garage MHE. It does not establish main-residence HAA treatment.",
-    "retained_review": "Staff applies R-1 and Hillside review to the proposed 694-square-foot garage. Council's actual August 11 action denied the appeal without prejudice; the packet's draft approval resolution was not the adopted outcome.",
+    "retained_review": "Staff applied R-1 and Hillside review to the proposed 694-square-foot garage. Following the August 11 appeal denial, Council adopted Resolution 2026-77 denying the garage MHE and appeal on September 1. The earlier draft approval was not the adopted outcome.",
     "design_change": "The original application mentions 790-square-foot garage/ADU components; the later hearing request is a 694-square-foot garage. A same-parcel October 2026 clearance record describes a 998-square-foot ADU above an existing garage. These are different scopes/records, not a verified sequence of approved enlargements.",
-    "decision": "Council denied the appeal without prejudice, 4\u20130, on August 11, 2026. The earlier Accela Approved label describes an administrative stage and does not supersede the appeal action.",
+    "decision": "Council denied the appeal without prejudice, 4–0, on August 11, 2026. Revised September 1 minutes then record adoption of Resolution 2026-77 denying the garage MHE and appeal, 5–0, with two recusals. The earlier Accela Approved label does not supersede these Council actions. This resolves that entitlement action, not every later ADU application or a permanent ban.",
     "construction": "PAC26-00107 shows Received as of October 20, 2026. This clearance proposal is not a building permit, proof of approval or completed ADU; its relationship to the earlier proposal needs reconciliation.",
     "sources": [
       "VIA-STAFF",
       "VIA-MIN",
-      "LIVE-VIA"
+      "LIVE-VIA",
+      "VIA-SEPT-STAFF",
+      "SEPT-MIN"
     ],
-    "unknown": "Later entitlement outcome, approved scope, linked ADU building permit, final inspection and occupancy."
+    "unknown": "Any later entitlement or ADU application outcome, approved scope of the October clearance proposal, linked ADU building permit, final inspection and occupancy."
+  },
+  {
+    "id": "PRE25-00005",
+    "address": "459 Via El Chico",
+    "tier": "Neighbor ADU/SB 9 protections; main-house HAA not established",
+    "classification": "neighbor_adu_sb9_no_main_house_haa_established",
+    "protected_scope": "First- and second-story additions and basement-level garage to an existing three-story residence. The ADU and two SB 9 units discussed by staff are on the neighboring property at 23719 Susana Avenue, not the applicant's house-addition proposal. Staff says the neighbor's original home retains Hillside protection, but applies its stated custom/practice to the newer ADU and SB 9 units when assessing view/privacy claims. This is attributed City reasoning, not an independently settled legal rule. Staff also evaluates privacy impacts on their merits.",
+    "retained_review": "Precise Plan and discretionary front-setback waiver; view, light, air and privacy analysis remained part of the report. This does not establish an HAA exemption for the applicant's main house.",
+    "design_change": "Staff reports FAR 0.59 and addition height 17.05 feet measured under the down-sloping-lot curb rule. Council minutes describe height/roof modifications; a quantified earlier/final plan comparison remains outstanding.",
+    "decision": "Council denied the appeal and upheld approval, adopting Resolutions 2026-79 and 2026-80, 6–0, one recusal. The motion also contains a stray MOD26-001 reference; do not merge it with the separate Calle Mayor case.",
+    "construction": "Applicant-project permit issuance, finals and occupancy were not checked in this follow-up. Staff's construction statement concerns the neighboring ADU/SB 9 development.",
+    "sources": [
+      "CHICO-STAFF",
+      "SEPT-MIN"
+    ],
+    "unknown": "Quantified earlier/final design comparison, applicant-project permit issuance, final inspections and occupancy."
+  },
+  {
+    "id": "MOD26-00001",
+    "address": "317 Calle Mayor",
+    "tier": "Conventional hillside comparison; main-house HAA not established",
+    "classification": "conventional_hillside_no_main_house_haa_established",
+    "protected_scope": "First- and second-story additions to an existing two-story house; modification of a prior Precise Plan. The reviewed staff analysis applies the Hillside view/privacy review. No project-specific main-house HAA or ADU protection determination was established in these selected passages.",
+    "retained_review": "Silhouettes, neighbor site visits, window/balcony privacy review and discretionary Council appeal remained applicable.",
+    "design_change": "Staff reports replacing an approximately 484-square-foot sun deck with a 319-square-foot bedroom and 144-square-foot balcony; window muntins were added after privacy concerns. These are reported proposal metrics, not measured as-built effects. Appellants disputed whether the old deck was usable; do not present the no-new-vantage conclusion as uncontested.",
+    "decision": "Council denied the appeal and adopted Resolution 2026-81, 5–1, with one recusal. Use this final motion, not the internally inconsistent hearing-closure tally.",
+    "construction": "No issuance, final inspection or occupancy verification in this follow-up.",
+    "sources": [
+      "CALLE-STAFF",
+      "SEPT-MIN"
+    ],
+    "unknown": "Reconciled earlier/approved design evidence, permit issuance, final inspections and occupancy."
   }
 ]
