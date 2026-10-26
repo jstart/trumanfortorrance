@@ -69,7 +69,10 @@
     show(lang, "");
     if (history.replaceState) history.replaceState(null, "", "#" + lang);
   }
-  window.addEventListener("hashchange", route);
   initTools();
-  route();
+  // Reader tools also serve pages without translated language sections.
+  if (document.querySelector(".lang")) {
+    window.addEventListener("hashchange", route);
+    route();
+  }
 })();

@@ -74,8 +74,11 @@ then update `senior-resources/index.html` (all five languages) and the "Last upd
 ## Hillside Overlay research
 
 The homepage Resources section links to `/hillside-overlay/`, an English research snapshot
-from October 26, 2026. Plain HTML and a page-scoped stylesheet use the existing site theme;
-no build step or runtime dependency was added.
+from October 26, 2026. The pages use the Senior Resources guide’s shared header, hero, sticky jump links,
+section headings, responsive card grids, label/detail rows and footer. The same Larger text
+and Print controls run through `js/main.js`; language routing applies only to translated
+guides. `hillside.css` adds only evidence-image, table, filter and print rules. No build
+step or runtime dependency was added.
 
 - `hillside-overlay/index.html`: three-case decision explainer, selected overlay background,
   reform timeline, Susana visuals, source citations and research limits.
