@@ -1,6 +1,6 @@
 # Truman for Torrance
 
-Static site. The home page (`/`) is a generic placeholder to fill in later. The Senior Resources Guide
+Static site. The home page (`/`) links to the available community resources. The Senior Resources Guide
 lives at `/senior-resources/`: 19 programs covering bills, health care, meals, repairs, taxes and transportation for Torrance seniors and people with disabilities,
 in English, Spanish, Korean, Japanese, and Chinese (Traditional).
 

@@ -105,9 +105,9 @@
       "file": "sources.json",
       "source_package": "decision_explainer",
       "source_file": "sources.json",
-      "sha256": "b72b2de2b49b20ba5abb187dccd9aa16c7e1eccc633218f527417e8acb76eecf",
+      "sha256": "2448654d4de11a3fdfbb4fb322a03264533f59a130f11a29594b9b16fecb2dab",
       "original_sha256": "8733f60b3a369935b668a9febe8c8249062e33efade94a37500d0409ec8f7d8c",
-      "adaptation": "Updated with the recent Council supplement: five-case comparison, September garage denial, and senior mixed-use certification conflict. CSV line endings use LF."
+      "adaptation": "Source registry updated with recent Council findings and original hearing-packet link; original supplied registry hash retained."
     },
     {
       "file": "via_public_record_summary.json",
