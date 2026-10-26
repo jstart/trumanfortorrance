@@ -1,7 +1,7 @@
 # Truman for Torrance
 
 Static site. The home page (`/`) is a generic placeholder to fill in later. The Senior Resources Guide
-lives at `/senior-resources/`: discounts and benefits for Torrance seniors and people with disabilities,
+lives at `/senior-resources/`: 19 programs covering bills, health care, meals, repairs, taxes and transportation for Torrance seniors and people with disabilities,
 in English, Spanish, Korean, Japanese, and Chinese (Traditional).
 
 **Live site (once DNS is set):** https://trumanfortorrance.com/
@@ -21,7 +21,7 @@ plain HTML, CSS, and vanilla JS, with a `CNAME` for the custom domain.
 Short links exist only for this site's own pages, never for outside resources. Outside programs
 are linked directly from each card.
 
-Card ids: `trash`, `tax`, `care`, `medicare`, `food`, `hip`, `focal`.
+Card ids: `trash`, `care`, `water`, `energy`, `medical`, `phone`, `medicare`, `ihss`, `ssi`, `food`, `meals`, `hip`, `habitat`, `tax`, `homeowner`, `taxaide`, `rides`, `life`, `focal`.
 With no hash, the page opens in the visitor's last language or browser language.
 
 ## Quick edits
@@ -52,7 +52,7 @@ County, State, or Commission on Aging document.
 
 ## Reader tools
 
-- Jump links: a sticky row of chips under the intro scrolls to each program. Card ids: `trash`, `tax`, `care`, `medicare`, `food`, `hip`, `focal`.
+- Jump links: a sticky row of chips under the intro scrolls to each program group. Card ids: `trash`, `care`, `water`, `energy`, `medical`, `phone`, `medicare`, `ihss`, `ssi`, `food`, `meals`, `hip`, `habitat`, `tax`, `homeowner`, `taxaide`, `rides`, `life`, `focal`.
 - "Larger text" button (header): scales the page to 125% and remembers the choice in the browser.
 - "Print" button (header): prints the guide in the visitor's language with links written out. Print styles are at the bottom of `css/styles.css`.
 - Each language footer asks readers to email info@trumanfortorrance.com about mistakes. Make sure that address forwards (Porkbun email forwarding).
@@ -105,3 +105,19 @@ The full research working folders, unsent outreach drafts and unrelated archives
 Preview with `python3 -m http.server 8765`, then visit `/hillside-overlay/`.
 Before publishing updates, reconcile newer decisions, permit revisions, source currency and
 research dates, and check local links, mobile/keyboard behavior and print output again.
+
+## Senior guide refresh — October 26, 2026
+
+The October dashboard research added Cal Water CAP, LIHEAP/standard ESA, Medical Baseline,
+LifeLine, IHSS, SSI/SSP, meal referrals, Habitat LA repairs, homeowner/Measure W exemptions,
+Tax-Aide, TCTP/Connect Torrance, and Metro LIFE. All 19 cards appear in all five languages
+with the same eligibility, benefit and application structure. Existing card IDs and all
+`senior-*` redirects are retained; new bare card hashes are supported by `js/main.js`.
+
+[Source and verification notes](senior-resources/sources.md) record primary links, research
+vintages, corrected City application, program-specific limits and remaining verification
+boundaries. Keep draft-translation notices until fluent speakers have reviewed them.
+Recheck Tax-Aide's expected February 2027 restart before adding actual appointments,
+Measure W's current-year forms/deadlines, PACE's office move, and the distinction between
+standard ESA and the closing Whole Home pilot. Do not copy old modeled participation
+gaps or proposed program expansions into benefit eligibility text.

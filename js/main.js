@@ -7,7 +7,7 @@
   function parse(hash) {
     var m = /^#(en|es|ko|ja|zh)(?:-([a-z]+))?$/.exec(hash || "");
     if (m) return { lang: m[1], card: m[2] || "" };
-    var c = /^#(trash|tax|care|medicare|food|hip|focal)$/.exec(hash || "");
+    var c = /^#(trash|care|water|energy|medical|phone|medicare|ihss|ssi|food|meals|hip|habitat|tax|homeowner|taxaide|rides|life|focal)$/.exec(hash || "");
     return c ? { lang: guess(), card: c[1] } : null;
   }
   function guess() {
@@ -63,6 +63,8 @@
     }
   }
   function route() {
+    // A skip-link jump keeps the currently visible language and native focus.
+    if (location.hash === "#main-content" && document.querySelector(".lang:not([hidden])")) return;
     var p = parse(location.hash);
     if (p) { show(p.lang, p.card); return; }
     var lang = guess();
