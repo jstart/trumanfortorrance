@@ -1,0 +1,29 @@
+[
+  {
+    "record_id": "TORRANCE-25CAP-00000-00L9Y",
+    "permit_number": "MHE- New ADU and garage (fees)",
+    "status": null,
+    "status_date": "2025-08-18 11:40:12",
+    "description": "Applicant requests 790 sf ADU and New 790 sf garage addition.",
+    "checked_date": "2026-10-26",
+    "link_limit": "same-parcel retrieval lead; later clearance is not proof of approved revision or construction"
+  },
+  {
+    "record_id": "TORRANCE-25CAP-00000-00LA0",
+    "permit_number": "MHE25-00051",
+    "status": "Approved",
+    "status_date": "2025-11-03 00:00:00",
+    "description": "Applicant requests to construct 790 sf garage addition and 790 sf ADU.",
+    "checked_date": "2026-10-26",
+    "link_limit": "same-parcel retrieval lead; later clearance is not proof of approved revision or construction"
+  },
+  {
+    "record_id": "TORRANCE-26CAP-00000-00TLU",
+    "permit_number": "PAC26-00107",
+    "status": "Received",
+    "status_date": "2026-10-20 00:00:00",
+    "description": "NEW ATTACHED ADU OF 998 SQUARE FEET FIRST AND SECOND\r\nFLOOR ABOVE EXISTING GARAGE.",
+    "checked_date": "2026-10-26",
+    "link_limit": "same-parcel retrieval lead; later clearance is not proof of approved revision or construction"
+  }
+]

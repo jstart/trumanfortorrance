@@ -1,0 +1,997 @@
+{
+  "root": "n-CHWbVn",
+  "nodes": {
+    "n-fG52Eb": {
+      "type": "image",
+      "data": {
+        "image": "r-wcAUOG",
+        "isExpandable": false
+      },
+      "config": {
+        "placement": {
+          "type": "fill",
+          "fit": {
+            "color": "backgroundColor"
+          },
+          "fill": {
+            "x": 0.5065221471471472,
+            "y": 0.3778125
+          }
+        }
+      }
+    },
+    "n-RjdSUp": {
+      "type": "storycover",
+      "data": {
+        "type": "full",
+        "title": "Community Development Department",
+        "summary": "Second Quarter Report 2026",
+        "byline": "TorranceCA GIS",
+        "titlePanelVerticalPosition": "top",
+        "titlePanelHorizontalPosition": "center",
+        "titlePanelStyle": "gradient",
+        "titlePanelSize": "medium"
+      },
+      "children": [
+        "n-fG52Eb"
+      ]
+    },
+    "n-eGJVKm": {
+      "type": "navigation",
+      "data": {
+        "links": [
+          {
+            "nodeId": "n-myBbyi"
+          },
+          {
+            "nodeId": "n-HKU96N"
+          },
+          {
+            "nodeId": "n-NCjhQN"
+          },
+          {
+            "nodeId": "n-gB_Miw"
+          },
+          {
+            "nodeId": "n-zjrONh",
+            "customText": "Major Developments Dashboard"
+          },
+          {
+            "nodeId": "n-9bQR2y"
+          },
+          {
+            "nodeId": "n-ugm2EK"
+          }
+        ]
+      },
+      "config": {
+        "isHidden": false
+      }
+    },
+    "n-myBbyi": {
+      "type": "text",
+      "data": {
+        "type": "h2",
+        "text": "Recent Updates"
+      }
+    },
+    "n-nyISan": {
+      "type": "text",
+      "data": {
+        "text": "<span class=\"sm-text-color-1f73af\">Single Family Hillside &amp; Coastal Overlay Zone Feedback</span>",
+        "type": "h3"
+      }
+    },
+    "n-OTPIHt": {
+      "type": "embed",
+      "data": {
+        "url": "https://youtu.be/O176F_as8Es?si=VXTneciwTSVsZiZ4",
+        "embedType": "video",
+        "title": "Share Your Feedback on Objective Design Standards",
+        "description": "The City is gathering community feedback as it explores objective development standards for single-family-zoned properties. The discussion forum is open until August 30. To learn more about the project and submit your comment, visit TorranceCA.Gov/ObjectiveDesignStandards. #TorranceCA",
+        "thumbnailUrl": "https://i.ytimg.com/vi/O176F_as8Es/hqdefault.jpg",
+        "providerUrl": "https://www.youtube.com/",
+        "height": 480,
+        "width": 854,
+        "caption": "Share Your Feedback on Objective Design Standards",
+        "isEmbedSupported": true,
+        "display": "inline",
+        "embedSrc": "https://cdn.embedly.com/widgets/media.html?a=0&src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FO176F_as8Es%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DO176F_as8Es&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FO176F_as8Es%2Fhqdefault.jpg&type=text%2Fhtml&schema=youtube",
+        "aspectRatio": 1.7778
+      },
+      "config": {
+        "size": "wide"
+      }
+    },
+    "n-rr1fd3": {
+      "type": "text",
+      "data": {
+        "type": "paragraph",
+        "text": "The City of Torrance is seeking community input on objective development standards for properties located within the Single-Family Residential (R-1) and Hillside and Coastal Overlay (R-H) Zones."
+      }
+    },
+    "n-TzjMbM": {
+      "type": "text",
+      "data": {
+        "type": "paragraph",
+        "text": "This outreach effort was initiated in response to City Council direction provided during the May 19, 2026, public workshop regarding the Hillside Overlay Zone. As discussed during the workshop, the existing development standards for the Hillside and Coastal Overlay Zone remain an important consideration as the City evaluates potential updates."
+      }
+    },
+    "n-jsGTKT": {
+      "type": "text",
+      "data": {
+        "type": "paragraph",
+        "text": "<span>Community comments submitted through this process will assist City staff in evaluating potential objective development standards and related procedures for future discussions and consideration by the City Council.</span>"
+      }
+    },
+    "n-KTs7hO": {
+      "type": "text",
+      "data": {
+        "type": "paragraph",
+        "text": "<span>To view the full workshop replay, please visit the May 19, 2026, City Council meeting on YouTube through Torrance Citi Cable.</span>"
+      }
+    },
+    "n-9EGdZT": {
+      "type": "text",
+      "data": {
+        "type": "paragraph",
+        "text": "<span>The discussion forum will remain open through August 30, 2026. Community members are encouraged to share their feedback and participate in this important conversation.&nbsp; To learn more about the project and submit your comments, visit <a href=\"https://torranceca.gov/ObjectiveDesignStandards\">https://torranceca.gov/ObjectiveDesignStandards</a>. </span>"
+      }
+    },
+    "n-uIcNfu": {
+      "type": "text",
+      "data": {
+        "type": "paragraph",
+        "text": "\u00a0"
+      }
+    },
+    "n-DHMGkJ": {
+      "type": "text",
+      "data": {
+        "type": "h3",
+        "text": "<span class=\"sm-text-color-1f73af\">Mumu Hot Pot</span>"
+      }
+    },
+    "n-F4khPP": {
+      "type": "text",
+      "data": {
+        "type": "paragraph",
+        "text": "<strong>Project Location:</strong> 3525 Carson St #170"
+      }
+    },
+    "n-BfoNNi": {
+      "type": "expressmap",
+      "data": {
+        "map": "r-vCu05S",
+        "basemap": "primary"
+      },
+      "config": {
+        "size": "float",
+        "floatAlignment": "end"
+      }
+    },
+    "n-Q10LAM": {
+      "type": "text",
+      "data": {
+        "text": "This project is located within Del Amo Fashion Center and involves the tenant improvement of the former Vegas Seafood Buffet space. The building permit for the new hot pot restaurant has received final inspection approval.",
+        "type": "paragraph"
+      }
+    },
+    "n-LDuyHs": {
+      "type": "text",
+      "data": {
+        "text": "Mumu Hot Pot, which currently operates several locations in Northern California, will be opening its first Southern California location at this site.",
+        "type": "paragraph"
+      }
+    },
+    "n-lPvA3I": {
+      "type": "text",
+      "data": {
+        "text": "",
+        "type": "paragraph"
+      }
+    },
+    "n-En00Jf": {
+      "type": "image",
+      "data": {
+        "image": "r-PV8Ix3"
+      }
+    },
+    "n-lcz40R": {
+      "type": "image",
+      "data": {
+        "image": "r-HKeqnl"
+      }
+    },
+    "n-LgE8S4": {
+      "type": "image",
+      "data": {
+        "image": "r-MEmSOV"
+      }
+    },
+    "n-XxhziI": {
+      "type": "image",
+      "data": {
+        "image": "r-5X3khQ"
+      }
+    },
+    "n-UaxaJM": {
+      "type": "image",
+      "data": {
+        "image": "r-uYh43Z"
+      }
+    },
+    "n-8wJ5Hf": {
+      "type": "image",
+      "data": {
+        "image": "r-PY12lX"
+      }
+    },
+    "n-9pfoKQ": {
+      "type": "gallery",
+      "data": {
+        "galleryLayout": "jigsaw"
+      },
+      "config": {
+        "size": "full"
+      },
+      "children": [
+        "n-En00Jf",
+        "n-lcz40R",
+        "n-LgE8S4",
+        "n-XxhziI",
+        "n-UaxaJM",
+        "n-8wJ5Hf"
+      ]
+    },
+    "n-n16veZ": {
+      "type": "text",
+      "data": {
+        "type": "h3",
+        "text": "<span class=\"sm-text-color-1f73af\">The Kickin&apos; Crab</span>"
+      }
+    },
+    "n-YRglhv": {
+      "type": "text",
+      "data": {
+        "type": "paragraph",
+        "text": "<strong>Project Location:</strong> 1757 Carson St. #H"
+      }
+    },
+    "n-Oitn4C": {
+      "type": "image",
+      "data": {
+        "image": "r-WSJGNr"
+      },
+      "config": {
+        "size": "standard"
+      }
+    },
+    "n-lQvzpK": {
+      "type": "text",
+      "data": {
+        "type": "paragraph",
+        "text": "This project is located within Eastgate Plaza, at the northwest corner of Carson Street and Western Avenue. The building permit for the tenant improvement of an existing commercial space into a new restaurant, The Kickin&apos; Crab, has received final inspection approval."
+      }
+    },
+    "n-M9MdOh": {
+      "type": "text",
+      "data": {
+        "type": "paragraph",
+        "text": "<span>The Kickin' Crab is a casual seafood restaurant specializing in Cajun-style seafood boils.</span>"
+      }
+    },
+    "n-VGxAb1": {
+      "type": "expressmap",
+      "data": {
+        "map": "r-K4mAVX",
+        "basemap": "primary"
+      },
+      "config": {
+        "size": "standard"
+      }
+    },
+    "n-8xQV6A": {
+      "type": "text",
+      "data": {
+        "type": "h3",
+        "text": "<span class=\"sm-text-color-1f73af\">Anastasi Development</span>"
+      }
+    },
+    "n-zL9gPr": {
+      "type": "text",
+      "data": {
+        "text": "<strong>Project Location:</strong> 18080 Prairie Ave",
+        "type": "paragraph"
+      }
+    },
+    "n-tAiDPb": {
+      "type": "expressmap",
+      "data": {
+        "map": "r-fXqjMQ",
+        "basemap": "primary"
+      },
+      "config": {
+        "size": "float",
+        "floatAlignment": "end"
+      }
+    },
+    "n-RzB2OO": {
+      "type": "text",
+      "data": {
+        "type": "paragraph",
+        "text": "This project is located north of 182nd Street and east of Prairie Avenue on the former Life South Bay Foursquare Church site. The project involved the demolition of the existing church building to make way for a new 24-unit townhouse development.  The project received final inspection approval, marking the completion of construction. "
+      }
+    },
+    "n-Q5wyxj": {
+      "type": "text",
+      "data": {
+        "type": "paragraph",
+        "text": "<span>&nbsp;</span>"
+      }
+    },
+    "n-r8OLQQ": {
+      "type": "text",
+      "data": {
+        "type": "h3",
+        "text": ""
+      }
+    },
+    "n-Q5GVnB": {
+      "type": "image",
+      "data": {
+        "image": "r-lNyXcu"
+      }
+    },
+    "n-JUEDWq": {
+      "type": "image",
+      "data": {
+        "image": "r-xQVno8"
+      }
+    },
+    "n-m5fhjw": {
+      "type": "image",
+      "data": {
+        "image": "r-RCb1wg"
+      }
+    },
+    "n-PFyNsh": {
+      "type": "image",
+      "data": {
+        "image": "r-2doKLH"
+      }
+    },
+    "n-LIpy3A": {
+      "type": "image",
+      "data": {
+        "image": "r-ZuOLDy"
+      }
+    },
+    "n-sqZFPC": {
+      "type": "image",
+      "data": {
+        "image": "r-TfoWAE"
+      }
+    },
+    "n-6miKHI": {
+      "type": "gallery",
+      "data": {
+        "galleryLayout": "jigsaw"
+      },
+      "config": {
+        "size": "wide"
+      },
+      "children": [
+        "n-Q5GVnB",
+        "n-JUEDWq",
+        "n-m5fhjw",
+        "n-PFyNsh",
+        "n-LIpy3A",
+        "n-sqZFPC"
+      ]
+    },
+    "n-dg61J5": {
+      "type": "separator"
+    },
+    "n-HKU96N": {
+      "type": "text",
+      "data": {
+        "text": "Permit Center",
+        "type": "h2"
+      }
+    },
+    "n-1kCCVE": {
+      "type": "text",
+      "data": {
+        "type": "paragraph",
+        "text": "The City of Torrance is committed to providing the best service to our customers. Below you will see a summary of the results we've collected via survey from our recent visitors at the One Stop Permit Center."
+      }
+    },
+    "n-AzU36D": {
+      "type": "text",
+      "data": {
+        "text": "",
+        "type": "paragraph"
+      }
+    },
+    "n-d9reOo": {
+      "type": "embed",
+      "data": {
+        "url": "https://storymaps.arcgis.com/stories/b46eb5d52c6447339f7f35901c7553db",
+        "embedType": "link",
+        "title": "Permit Center KPI Report",
+        "description": "Community Development Department",
+        "thumbnailUrl": "https://cdn.arcgis.com/sharing/rest/content/items/b46eb5d52c6447339f7f35901c7553db/resources/a3h1kVK20yLWye8hBExyc.jpeg",
+        "providerUrl": "https://storymaps.arcgis.com",
+        "height": 600,
+        "width": 800,
+        "useSmartEmbed": false,
+        "isInteractiveByDefault": true,
+        "caption": "Permit Center KPI Report",
+        "isEmbedSupported": true,
+        "display": "inline",
+        "embedSrc": "https://storymaps.arcgis.com/stories/b46eb5d52c6447339f7f35901c7553db",
+        "alt": "",
+        "hasEmbedOpenButton": true
+      },
+      "config": {
+        "size": "full"
+      }
+    },
+    "n-Ulo5AM": {
+      "type": "separator"
+    },
+    "n-NCjhQN": {
+      "type": "text",
+      "data": {
+        "text": "Division Updates",
+        "type": "h2"
+      }
+    },
+    "n-R0I6DV": {
+      "type": "image",
+      "data": {
+        "image": "r-dkfQCN"
+      },
+      "config": {
+        "size": "wide"
+      }
+    },
+    "n-kLc7E7": {
+      "type": "image",
+      "data": {
+        "image": "r-B22dnw"
+      },
+      "config": {
+        "size": "wide"
+      }
+    },
+    "n-qKUzNm": {
+      "type": "image",
+      "data": {
+        "image": "r-fLvIXi"
+      },
+      "config": {
+        "size": "wide"
+      }
+    },
+    "n-QigAdv": {
+      "type": "image",
+      "data": {
+        "image": "r-uxYYzE"
+      },
+      "config": {
+        "size": "wide"
+      }
+    },
+    "n-cEMNQM": {
+      "type": "image",
+      "data": {
+        "image": "r-Tws08D"
+      },
+      "config": {
+        "size": "wide"
+      }
+    },
+    "n-gljrOB": {
+      "type": "image",
+      "data": {
+        "image": "r-yYmRPr"
+      },
+      "config": {
+        "size": "wide"
+      }
+    },
+    "n-H8lLaM": {
+      "type": "separator"
+    },
+    "n-gB_Miw": {
+      "type": "text",
+      "data": {
+        "type": "h2",
+        "text": "Building Permits Dashboard"
+      }
+    },
+    "n-EGehkx": {
+      "type": "text",
+      "data": {
+        "text": "",
+        "type": "paragraph"
+      }
+    },
+    "n-_abtYG": {
+      "type": "embed",
+      "data": {
+        "url": "http://torranceca.maps.arcgis.com/apps/opsdashboard/index.html#/57ba9b2cd125495889246b5492d7a782",
+        "title": "Building Permit Dashboard",
+        "providerUrl": "http://torranceca.maps.arcgis.com",
+        "caption": "<p>Interactive Permit Dashboard</p>",
+        "embedType": "link",
+        "display": "inline",
+        "alt": "",
+        "description": "Interactive Building Permit Dashboard",
+        "hasEmbedOpenButton": true,
+        "isInteractiveByDefault": false,
+        "isLiveOnMobile": false
+      },
+      "config": {
+        "size": "full"
+      }
+    },
+    "n-OULdGV": {
+      "type": "text",
+      "data": {
+        "text": "For more information please visit the Community Development Department website.",
+        "type": "paragraph"
+      }
+    },
+    "n-dkPKLH": {
+      "type": "embed",
+      "data": {
+        "url": "https://www.torranceca.gov/Government/Departments-Offices/Departments-Offices/Community-Development",
+        "embedType": "link",
+        "title": "Community Development",
+        "description": "The Community Development Department helps shape safe, sustainable, and livable neighborhoods through planning, building and safety, code enforcement, housing, neighborhood improvement, and historic preservation services.",
+        "thumbnailUrl": "https://www.torranceca.gov/files/ocwebsite/City/HeroImage/social%20media%20image%20-%20torrance.jpg?w=1200",
+        "providerUrl": "https://www.torranceca.gov",
+        "caption": "Community Development",
+        "isEmbedSupported": false,
+        "display": "card",
+        "alt": "",
+        "hasEmbedOpenButton": true,
+        "isLiveOnMobile": false
+      }
+    },
+    "n-SS3lvS": {
+      "type": "separator"
+    },
+    "n-zjrONh": {
+      "type": "text",
+      "data": {
+        "type": "h2",
+        "text": "Major Developments and \nResidential Developments"
+      }
+    },
+    "n-m8iG1a": {
+      "type": "embed",
+      "data": {
+        "url": "https://torranceca.maps.arcgis.com/apps/dashboards/19ca9878c4854c24a5c6abd858d8d1f7",
+        "embedType": "link",
+        "title": "Major Development Project Dashboard",
+        "description": "Major Development Project Dashboard 2024",
+        "thumbnailUrl": "https://www.arcgis.com/sharing/rest/content/items/19ca9878c4854c24a5c6abd858d8d1f7/info/thumbnail/thumbnail1719165034370.png",
+        "providerUrl": "https://torranceca.maps.arcgis.com",
+        "caption": "Major Development Project Dashboard",
+        "isEmbedSupported": true,
+        "display": "inline",
+        "embedSrc": "https://torranceca.maps.arcgis.com/apps/dashboards/19ca9878c4854c24a5c6abd858d8d1f7",
+        "allowSmallEmbeds": true,
+        "embedResourceId": "r-u9aGBi"
+      },
+      "config": {
+        "size": "full"
+      }
+    },
+    "n-4rBLDw": {
+      "type": "separator"
+    },
+    "n-9bQR2y": {
+      "type": "text",
+      "data": {
+        "type": "h2",
+        "text": "New Hires"
+      }
+    },
+    "n-Qp1R0Z": {
+      "type": "text",
+      "data": {
+        "type": "bullet-list",
+        "text": "<li>Ulyses Vazquez- Planning Assistant</li><li>Enrique Miranda- Permit Technician I</li><li>Samuel Rubalcava- Building Inspector</li><li>Adrian Anderson- Permit Technician l</li><li>Perla Nava- GIS Engineering Technician l</li>",
+        "textSize": "medium"
+      }
+    },
+    "n-eDZsmN": {
+      "type": "text",
+      "data": {
+        "text": "",
+        "type": "paragraph"
+      }
+    },
+    "n-ugm2EK": {
+      "type": "text",
+      "data": {
+        "text": "Thank You",
+        "type": "h2"
+      }
+    },
+    "n-bIuEnz": {
+      "type": "text",
+      "data": {
+        "text": "Please revisit next quarter for a new update.",
+        "type": "paragraph"
+      }
+    },
+    "n-9XjmCn": {
+      "type": "text",
+      "data": {
+        "type": "paragraph",
+        "text": ""
+      }
+    },
+    "n-ErtRgr": {
+      "type": "text",
+      "data": {
+        "text": "",
+        "type": "paragraph"
+      }
+    },
+    "n-AdtSl9": {
+      "type": "text",
+      "data": {
+        "text": "",
+        "type": "paragraph"
+      }
+    },
+    "n-HTxNAB": {
+      "type": "text",
+      "data": {
+        "type": "h3",
+        "text": ""
+      }
+    },
+    "n-QN5JXt": {
+      "type": "text",
+      "data": {
+        "text": "",
+        "type": "h4"
+      }
+    },
+    "n-QhWiqu": {
+      "type": "text",
+      "data": {
+        "text": "",
+        "type": "paragraph"
+      }
+    },
+    "n-P3wlfB": {
+      "type": "attribution",
+      "data": {
+        "content": "",
+        "attribution": ""
+      }
+    },
+    "n-GQRVyJ": {
+      "type": "credits",
+      "config": {
+        "isHidden": true
+      },
+      "children": [
+        "n-QN5JXt",
+        "n-QhWiqu",
+        "n-P3wlfB"
+      ]
+    },
+    "n-CHWbVn": {
+      "type": "story",
+      "data": {
+        "storyTheme": "r-Rr8BtX",
+        "storyLogoResource": "r-iq37Hj",
+        "storyLogoLink": "https://www.torranceca.gov/our-city/community-development",
+        "storyLogoAlt": "City of Torrance Logo"
+      },
+      "config": {
+        "coverDate": "last-published"
+      },
+      "children": [
+        "n-RjdSUp",
+        "n-eGJVKm",
+        "n-myBbyi",
+        "n-nyISan",
+        "n-OTPIHt",
+        "n-rr1fd3",
+        "n-TzjMbM",
+        "n-jsGTKT",
+        "n-KTs7hO",
+        "n-9EGdZT",
+        "n-uIcNfu",
+        "n-DHMGkJ",
+        "n-F4khPP",
+        "n-BfoNNi",
+        "n-Q10LAM",
+        "n-LDuyHs",
+        "n-lPvA3I",
+        "n-9pfoKQ",
+        "n-n16veZ",
+        "n-YRglhv",
+        "n-Oitn4C",
+        "n-lQvzpK",
+        "n-M9MdOh",
+        "n-VGxAb1",
+        "n-8xQV6A",
+        "n-zL9gPr",
+        "n-tAiDPb",
+        "n-RzB2OO",
+        "n-Q5wyxj",
+        "n-r8OLQQ",
+        "n-6miKHI",
+        "n-dg61J5",
+        "n-HKU96N",
+        "n-1kCCVE",
+        "n-AzU36D",
+        "n-d9reOo",
+        "n-Ulo5AM",
+        "n-NCjhQN",
+        "n-R0I6DV",
+        "n-kLc7E7",
+        "n-qKUzNm",
+        "n-QigAdv",
+        "n-cEMNQM",
+        "n-gljrOB",
+        "n-H8lLaM",
+        "n-gB_Miw",
+        "n-EGehkx",
+        "n-_abtYG",
+        "n-OULdGV",
+        "n-dkPKLH",
+        "n-SS3lvS",
+        "n-zjrONh",
+        "n-m8iG1a",
+        "n-4rBLDw",
+        "n-9bQR2y",
+        "n-Qp1R0Z",
+        "n-eDZsmN",
+        "n-ugm2EK",
+        "n-bIuEnz",
+        "n-9XjmCn",
+        "n-ErtRgr",
+        "n-AdtSl9",
+        "n-HTxNAB",
+        "n-GQRVyJ"
+      ]
+    }
+  },
+  "resources": {
+    "r-wcAUOG": {
+      "type": "image",
+      "data": {
+        "resourceId": "83e8ba72-c703-42e3-948c-835d50d469c5.jpeg",
+        "provider": "item-resource",
+        "height": 3746,
+        "width": 5000
+      }
+    },
+    "r-vCu05S": {
+      "type": "expressmap",
+      "data": {
+        "itemId": "expressmap_1784314060924.json"
+      }
+    },
+    "r-PV8Ix3": {
+      "type": "image",
+      "data": {
+        "resourceId": "Hfk1QutrKlSNvQf8At404.jpg",
+        "provider": "item-resource",
+        "height": 1000,
+        "width": 750
+      }
+    },
+    "r-HKeqnl": {
+      "type": "image",
+      "data": {
+        "resourceId": "TWdh4WyvtuRAIhQHgUguR.jpg",
+        "provider": "item-resource",
+        "height": 667,
+        "width": 1000
+      }
+    },
+    "r-MEmSOV": {
+      "type": "image",
+      "data": {
+        "resourceId": "epgaUqYxfsZ3ybeaeFe9B.jpg",
+        "provider": "item-resource",
+        "height": 750,
+        "width": 1000
+      }
+    },
+    "r-5X3khQ": {
+      "type": "image",
+      "data": {
+        "resourceId": "YAirmWrF8It1M5_vubmHs.jpg",
+        "provider": "item-resource",
+        "height": 1000,
+        "width": 958
+      }
+    },
+    "r-uYh43Z": {
+      "type": "image",
+      "data": {
+        "resourceId": "bWV6ylY7DoCQXUXZl4Y3v.jpg",
+        "provider": "item-resource",
+        "height": 750,
+        "width": 1000
+      }
+    },
+    "r-PY12lX": {
+      "type": "image",
+      "data": {
+        "resourceId": "7907ecf4-1b6d-4815-b86c-68332e930705.jpeg",
+        "provider": "item-resource",
+        "height": 5000,
+        "width": 3750
+      }
+    },
+    "r-WSJGNr": {
+      "type": "image",
+      "data": {
+        "resourceId": "e4221d03-701e-409c-9541-c4034dbc92d7.jpeg",
+        "provider": "item-resource",
+        "height": 3750,
+        "width": 5000
+      }
+    },
+    "r-K4mAVX": {
+      "type": "expressmap",
+      "data": {
+        "itemId": "expressmap_1784315424291.json"
+      }
+    },
+    "r-fXqjMQ": {
+      "type": "expressmap",
+      "data": {
+        "itemId": "expressmap_1784314509599.json"
+      }
+    },
+    "r-lNyXcu": {
+      "type": "image",
+      "data": {
+        "resourceId": "ea65b2eb-1dfa-4f9e-b958-0e516ff1d558.jpeg",
+        "provider": "item-resource",
+        "height": 3750,
+        "width": 5000
+      }
+    },
+    "r-xQVno8": {
+      "type": "image",
+      "data": {
+        "resourceId": "cd3d763e-545d-4392-8153-1f6fd48b194c.jpeg",
+        "provider": "item-resource",
+        "height": 3746,
+        "width": 5000
+      }
+    },
+    "r-RCb1wg": {
+      "type": "image",
+      "data": {
+        "resourceId": "5361177a-8f58-431e-913d-1ec3a329858a.jpeg",
+        "provider": "item-resource",
+        "height": 3746,
+        "width": 5000
+      }
+    },
+    "r-2doKLH": {
+      "type": "image",
+      "data": {
+        "resourceId": "25126fdb-d703-48b1-bfb5-2c0b4b235de7.jpeg",
+        "provider": "item-resource",
+        "height": 3746,
+        "width": 5000
+      }
+    },
+    "r-ZuOLDy": {
+      "type": "image",
+      "data": {
+        "resourceId": "f6e3c1cf-6bb1-4ef6-a272-66e469c63e78.jpeg",
+        "provider": "item-resource",
+        "height": 3750,
+        "width": 5000
+      }
+    },
+    "r-TfoWAE": {
+      "type": "image",
+      "data": {
+        "resourceId": "fd36bf86-66f4-415d-8295-d9be6a3a4dae.jpeg",
+        "provider": "item-resource",
+        "height": 3750,
+        "width": 5000
+      }
+    },
+    "r-dkfQCN": {
+      "type": "image",
+      "data": {
+        "resourceId": "4gLAK03V0N4Z5TkD2T-79.jpg",
+        "provider": "item-resource",
+        "height": 2250,
+        "width": 4000
+      }
+    },
+    "r-B22dnw": {
+      "type": "image",
+      "data": {
+        "resourceId": "Y8ChpWPqkNODqJWwTAGkY.jpg",
+        "provider": "item-resource",
+        "height": 2250,
+        "width": 4000
+      }
+    },
+    "r-fLvIXi": {
+      "type": "image",
+      "data": {
+        "resourceId": "vCnR5elOhEVlfIwtm0lXn.jpg",
+        "provider": "item-resource",
+        "height": 2250,
+        "width": 4000
+      }
+    },
+    "r-uxYYzE": {
+      "type": "image",
+      "data": {
+        "resourceId": "cXw57UzYIqraHCnTVdUf7.jpg",
+        "provider": "item-resource",
+        "height": 2250,
+        "width": 4000
+      }
+    },
+    "r-Tws08D": {
+      "type": "image",
+      "data": {
+        "resourceId": "hns2hU58E3HlntaSbMliG.jpg",
+        "provider": "item-resource",
+        "height": 2250,
+        "width": 4000
+      }
+    },
+    "r-yYmRPr": {
+      "type": "image",
+      "data": {
+        "resourceId": "Sch5qZ5cRsuCT7HqOYm1W.jpg",
+        "provider": "item-resource",
+        "height": 2250,
+        "width": 4000
+      }
+    },
+    "r-u9aGBi": {
+      "type": "portal-item",
+      "data": {
+        "itemId": "19ca9878c4854c24a5c6abd858d8d1f7",
+        "itemType": "Dashboard"
+      }
+    },
+    "r-Rr8BtX": {
+      "type": "story-theme",
+      "data": {
+        "themeId": "summit",
+        "themeBaseVariableOverrides": {},
+        "themeItemId": "f4d853a7596648dfae2b208f21aa2e7c"
+      }
+    },
+    "r-iq37Hj": {
+      "type": "image",
+      "data": {
+        "resourceId": "1567102938496.jpeg",
+        "provider": "item-resource",
+        "height": 1800,
+        "width": 1800
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+/* Layout, typography, cards, navigation and reader tools come from ../css/styles.css.
+   Only research-specific evidence (images, tables and filters) needs extra rules. */
+.research-body { overflow-wrap: anywhere; }
+.research-body .cards + .cards { margin-top: 1.25rem; }
+.research-body img { display: block; max-width: 100%; height: auto; }
+.research-body figure { margin: 0; }
+.research-body figcaption, .research-body .small, .research-body .citations, .research-body .cite { font-size: .9375rem; color: var(--color-muted); }
+.research-body .cite { display: block; margin-top: .75rem; }
+.research-body .citations a { display: inline-block; margin-right: .75rem; }
+.research-body blockquote { border-left: 3px solid var(--color-rule); padding-left: 1rem; margin: .5rem 0; }
+.research-body table { width: 100%; border-collapse: collapse; font-size: .9375rem; }
+.research-body th, .research-body td { padding: .75rem; border: 1px solid var(--color-rule); text-align: left; vertical-align: top; }
+.research-body .table-scroll, .research-body .scroll { overflow-x: auto; min-width: 0; }
+.research-body .scroll table { min-width: 68rem; }
+.research-body .table-scroll table { min-width: 35rem; }
+.research-body .controls { display: flex; flex-wrap: wrap; gap: 1rem; }
+.research-body .controls label { display: flex; flex-direction: column; min-width: 0; }
+.research-body input, .research-body select { font: inherit; padding: .5rem; max-width: 100%; color: var(--color-ink); background: var(--color-paper); border: 1px solid var(--color-rule); }
+.research-body .help { margin-bottom: 1.25rem; }
+@media print {
+  :root { --color-paper: #fff; --color-ink: #000; --color-muted: #333; --color-rule: #bbb; --color-accent: #000; }
+  .research-body .controls { display: none; }
+  .research-body .card { break-inside: auto; }
+  .research-body h2, .research-body h3 { break-after: avoid; }
+  .research-body img { max-height: 8in; width: auto; max-width: 100%; }
+  .research-body figure { break-inside: avoid; }
+  .research-body .table-scroll, .research-body .scroll { overflow: visible; }
+  .research-body .scroll table, .research-body .table-scroll table { min-width: 0; table-layout: fixed; font-size: 8pt; }
+  .research-body th, .research-body td { padding: .25rem; }
+  .research-body tr[hidden] { display: table-row; }
+  .research-body a[href^="http"]::after { content: " (" attr(href) ")"; font-size: 8pt; overflow-wrap: anywhere; }
+}
