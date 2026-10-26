@@ -13,9 +13,11 @@
       "SUSANA-RES",
       "SUSANA-STAFF",
       "LIVE-TWO",
-      "SUSANA-PILOT"
+      "SUSANA-PILOT",
+      "SUSANA-MIN"
     ],
-    "unknown": "Corrected issued plan dimensions, reconciled height/grade and area definitions, completed housing and the design change attributable to HAA."
+    "unknown": "Corrected issued plan dimensions, reconciled height/grade and area definitions, completed housing and the design change attributable to HAA.",
+    "notes": "The June 17 Council minutes report “5–0” while also recording Mattucci voting no and Sheikh absent. No corrected numerical tally is asserted here."
   },
   {
     "id": "PRE24-00007",
@@ -32,7 +34,8 @@
       "DORIS-NOV",
       "LIVE-TWO"
     ],
-    "unknown": "Signed operative resolution, earlier versus approved designs, any later appeal/revisions, issuance, final inspections and occupancy."
+    "unknown": "Signed operative resolution, earlier versus approved designs, any later appeal/revisions, issuance, final inspections and occupancy.",
+    "notes": ""
   },
   {
     "id": "MHE25-00051",
@@ -51,7 +54,8 @@
       "VIA-SEPT-STAFF",
       "SEPT-MIN"
     ],
-    "unknown": "Any later entitlement or ADU application outcome, approved scope of the October clearance proposal, linked ADU building permit, final inspection and occupancy."
+    "unknown": "Any later entitlement or ADU application outcome, approved scope of the October clearance proposal, linked ADU building permit, final inspection and occupancy.",
+    "notes": ""
   },
   {
     "id": "PRE25-00005",
@@ -67,7 +71,8 @@
       "CHICO-STAFF",
       "SEPT-MIN"
     ],
-    "unknown": "Quantified earlier/final design comparison, applicant-project permit issuance, final inspections and occupancy."
+    "unknown": "Quantified earlier/final design comparison, applicant-project permit issuance, final inspections and occupancy.",
+    "notes": ""
   },
   {
     "id": "MOD26-00001",
@@ -83,6 +88,7 @@
       "CALLE-STAFF",
       "SEPT-MIN"
     ],
-    "unknown": "Reconciled earlier/approved design evidence, permit issuance, final inspections and occupancy."
+    "unknown": "Reconciled earlier/approved design evidence, permit issuance, final inspections and occupancy.",
+    "notes": ""
   }
 ]

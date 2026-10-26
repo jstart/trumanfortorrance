@@ -73,17 +73,17 @@
       "file": "comparison.csv",
       "source_package": "decision_explainer",
       "source_file": "comparison.csv",
-      "sha256": "5b65ce4e6bd219fdf776ab7c1f5383298e45bebfd6e3891e4e279dd8bc5de63f",
+      "sha256": "980b6a740c24fd6cec183f4066329cc70c1d3363c7f6d97da0b2489d43d24a28",
       "original_sha256": "1cea1de12463ab6fb8126aa9904357e7427784826bb17ab67c3d02ecfc9c5648",
-      "adaptation": "Updated with the recent Council supplement: five-case comparison, September garage denial, and senior mixed-use certification conflict. CSV line endings use LF."
+      "adaptation": "Maintained JSON or generated CSV; original supplied hash retained."
     },
     {
       "file": "comparison.json",
       "source_package": "decision_explainer",
       "source_file": "comparison.json",
-      "sha256": "30236f8de8c58be72341276f26fa2279335714698f55bb9ecf0f998216255529",
+      "sha256": "cfc9ead3b76551b290df459c0a00ed193be97a30c567eaa9c94fed37920fae53",
       "original_sha256": "01e71f16dbb884ad13f417984d5324d7fe17b25fed002cc12979678569cafe5a",
-      "adaptation": "Updated with the recent Council supplement: five-case comparison, September garage denial, and senior mixed-use certification conflict. CSV line endings use LF."
+      "adaptation": "Maintained JSON or generated CSV; original supplied hash retained."
     },
     {
       "file": "source_reviews.csv",
@@ -105,9 +105,9 @@
       "file": "sources.json",
       "source_package": "decision_explainer",
       "source_file": "sources.json",
-      "sha256": "2448654d4de11a3fdfbb4fb322a03264533f59a130f11a29594b9b16fecb2dab",
+      "sha256": "f48a162f7975b6ffcc0c07a0941a9942480fcce11e328a0f8f7f78bd43ccecf6",
       "original_sha256": "8733f60b3a369935b668a9febe8c8249062e33efade94a37500d0409ec8f7d8c",
-      "adaptation": "Source registry updated with recent Council findings and original hearing-packet link; original supplied registry hash retained."
+      "adaptation": "Maintained JSON or generated CSV; original supplied hash retained."
     },
     {
       "file": "via_public_record_summary.json",

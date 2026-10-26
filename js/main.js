@@ -1,14 +1,18 @@
 // Language switching by URL hash: #es, #ko, #ja, #zh, #en. A card can be targeted as #es-tax, or as #tax in the visitor's language.
 (function () {
-  var codes = SITE_CONFIG.languages;
-  var langAttr = { en: "en", es: "es", ko: "ko", ja: "ja", zh: "zh-Hant" };
+  var sections = Array.prototype.slice.call(document.querySelectorAll(".lang"));
+  var codes = sections.map(function (section) { return section.id.slice(5); });
   var links = document.querySelectorAll(".langnav__link");
 
   function parse(hash) {
-    var m = /^#(en|es|ko|ja|zh)(?:-([a-z]+))?$/.exec(hash || "");
-    if (m) return { lang: m[1], card: m[2] || "" };
-    var c = /^#(trash|care|water|energy|medical|phone|medicare|ihss|ssi|food|meals|hip|habitat|tax|homeowner|taxaide|rides|life|focal)$/.exec(hash || "");
-    return c ? { lang: guess(), card: c[1] } : null;
+    var value = (hash || "").slice(1);
+    var parts = value.split("-");
+    if (codes.indexOf(parts[0]) >= 0) {
+      return { lang: parts[0], card: parts.slice(1).join("-") };
+    }
+    var lang = guess();
+    return value && document.getElementById(lang + "-" + value)
+      ? { lang: lang, card: value } : null;
   }
   function guess() {
     var saved = "";
@@ -44,11 +48,11 @@
     if (p) p.addEventListener("click", function () { window.print(); });
   }
   function show(lang, card) {
-    codes.forEach(function (c) { document.getElementById("lang-" + c).hidden = c !== lang; });
+    sections.forEach(function (section) { section.hidden = section.id !== "lang-" + lang; });
     Array.prototype.forEach.call(links, function (a) {
       a.setAttribute("aria-current", a.getAttribute("data-lang") === lang ? "true" : "false");
     });
-    document.documentElement.lang = langAttr[lang];
+    document.documentElement.lang = document.getElementById("lang-" + lang).lang;
     setToolLabels(lang);
     try { localStorage.setItem("senior-guide-lang", lang); } catch (e) {}
     var target = card ? document.getElementById(lang + "-" + card) : null;
@@ -73,7 +77,7 @@
   }
   initTools();
   // Reader tools also serve pages without translated language sections.
-  if (document.querySelector(".lang")) {
+  if (sections.length) {
     window.addEventListener("hashchange", route);
     route();
   }
