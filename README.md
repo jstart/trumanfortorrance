@@ -70,3 +70,35 @@ then update `senior-resources/index.html` (all five languages) and the "Last upd
 - Home Improvement Program: HUD income limits (published each April) and services list.
 - Focal Point on Aging: phone number and hours.
 - Translations: have fluent speakers review, then remove the draft-translation banner.
+
+## Hillside Overlay research
+
+The homepage Resources section links to `/hillside-overlay/`, an English research snapshot
+from October 26, 2026. Plain HTML and a page-scoped stylesheet use the existing site theme;
+no build step or runtime dependency was added.
+
+- `hillside-overlay/index.html`: three-case decision explainer, selected overlay background,
+  reform timeline, Susana visuals, source citations and research limits.
+- `hillside-overlay/review.html`: decision-source ledger with optional client-side filtering.
+- `hillside-overlay/expanded-search.html`: rendered expanded follow-through findings.
+- `hillside-overlay/sources/`, `visuals/`, `downloads/`: selected evidence and the supplied
+  two-page Susana PDF. `asset-provenance.json` records SHA-256 hashes for copied assets.
+- CSV/JSON companions preserve the supplied comparison, source ledger and permit-stage snapshot.
+
+The newer three-case decision package replaces the older briefing's unresolved Doris Way
+status and Via Linda Vista agenda lead. The Susana Council tally remains unresolved.
+The timeline distinguishes the announced August 30 deadline from the later statement
+reporting acceptance through August 31; a year-end expectation is not a scheduled hearing.
+Permit stages are dated observations, not a live feed. No completed-unit or prevalence
+conclusion is established. The broader briefing was selectively adapted; its stale case
+sections and social-post drafts are not published.
+
+Source packages supplied for this draft: `Hillside Overlay Research.html`,
+`Susana Avenue — source summary.pdf`, `susana_project_visuals_2026-10-26`,
+`susana_hearing_sources_2026-10-26`, `hillside_overlay_followthrough_2026-10-26`,
+and `hillside_adu_review/expanded_review_2026-10-26/decision_explainer`.
+The full research working folders, unsent outreach drafts and unrelated archives are excluded.
+
+Preview with `python3 -m http.server 8765`, then visit `/hillside-overlay/`.
+Before publishing updates, reconcile newer decisions, permit revisions, source currency and
+research dates, and check local links, mobile/keyboard behavior and print output again.

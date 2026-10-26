@@ -1,0 +1,173 @@
+{
+  "research_date": "2026-10-26",
+  "assets": [
+    {
+      "file": "sources/SENIOR-RES.pdf",
+      "source_package": "sources",
+      "source_file": "SENIOR-RES.pdf",
+      "sha256": "d05eee35e89854a0eee783a9c54ac25f53cc013858f505d1fb35fc7571032b0f"
+    },
+    {
+      "file": "sources/DORIS-NOV.pdf",
+      "source_package": "sources",
+      "source_file": "DORIS-NOV.pdf",
+      "sha256": "ac8d81f025f6baaf63cb312bd42610a4bb49167b40371c793d496c8e09db6af7"
+    },
+    {
+      "file": "sources/1959059_page_277.pdf",
+      "source_package": "sources",
+      "source_file": "1959059_page_277.pdf",
+      "sha256": "4d78466075e38573bc440823d2877ef4a5b6fec53f2973b83ddd09389e2f97f3"
+    },
+    {
+      "file": "sources/VIA-MIN.pdf",
+      "source_package": "sources",
+      "source_file": "VIA-MIN.pdf",
+      "sha256": "4bf9290ad2f36974968b16bb495839c9fd02c2b4cb3610507d8ce9d81aace101"
+    },
+    {
+      "file": "sources/1959059_page_1.pdf",
+      "source_package": "sources",
+      "source_file": "1959059_page_1.pdf",
+      "sha256": "071b1760df078c558634c8f9cdb6fc01d137943eec3e32e46b01fcda302cdd25"
+    },
+    {
+      "file": "sources/susana_first_floor_comparison.png",
+      "source_package": "sources",
+      "source_file": "susana_first_floor_comparison.png",
+      "sha256": "2f22448b2f8b82375ffeb85a72bdc2052b41ac59347dce699e0af4b65d85b31c"
+    },
+    {
+      "file": "sources/susana_design_comparison.md",
+      "source_package": "sources",
+      "source_file": "susana_design_comparison.md",
+      "sha256": "6a094e9a0f1edf012acdcb85e3261af517babb6359e88fc96b77e026019a9835"
+    },
+    {
+      "file": "sources/current_public_stage_summary.csv",
+      "source_package": "sources",
+      "source_file": "current_public_stage_summary.csv",
+      "sha256": "38a07674e483424511e1ac43236ee94a96d7cda894b20fcf919c6725c47e25ba",
+      "original_sha256": "73a035560ad93ca541645ad83d24b0f441cb05b0192f0dd282be1648ba09547e",
+      "adaptation": "CSV line endings normalized to LF; field values unchanged."
+    },
+    {
+      "file": "sources/VIA-STAFF-excerpt.pdf",
+      "source_package": "sources",
+      "source_file": "VIA-STAFF-excerpt.pdf",
+      "sha256": "02a362d64b8f5b59ceb5c0e7169cf987a7c9d1e9f6d53016324b54f5c53a2914"
+    },
+    {
+      "file": "sources/SUSANA-RES.pdf",
+      "source_package": "sources",
+      "source_file": "SUSANA-RES.pdf",
+      "sha256": "aa24d11e9a3dda9259863f477a3a6f1fac5713e74eb922eed5e8670f236bb5e4"
+    },
+    {
+      "file": "sources/DORIS-MIN.pdf",
+      "source_package": "sources",
+      "source_file": "DORIS-MIN.pdf",
+      "sha256": "0ce3310430b87838cfa9cf8824c01f9dbd31726203d2a9ed33c9ae7b989970d6"
+    },
+    {
+      "file": "comparison.csv",
+      "source_package": "decision_explainer",
+      "source_file": "comparison.csv",
+      "sha256": "c61140d9a8f31cf5913df60982338734d2a48325b1f281e3cb2dd37ba7e68f40",
+      "original_sha256": "1cea1de12463ab6fb8126aa9904357e7427784826bb17ab67c3d02ecfc9c5648",
+      "adaptation": "CSV line endings normalized to LF; field values unchanged."
+    },
+    {
+      "file": "comparison.json",
+      "source_package": "decision_explainer",
+      "source_file": "comparison.json",
+      "sha256": "01e71f16dbb884ad13f417984d5324d7fe17b25fed002cc12979678569cafe5a"
+    },
+    {
+      "file": "source_reviews.csv",
+      "source_package": "decision_explainer",
+      "source_file": "source_reviews.csv",
+      "sha256": "b5bc14845ec466f8eb1596bf04673a93146ac3b7eeb9fae9c91c5edff093346b",
+      "original_sha256": "111e97e49dd9c1d5f2ffa82d8fc61503e8119b267a5c2557933c5272a736734f",
+      "adaptation": "CSV line endings normalized to LF; field values unchanged."
+    },
+    {
+      "file": "source_reviews.json",
+      "source_package": "decision_explainer",
+      "source_file": "source_reviews.json",
+      "sha256": "e923ca78da84bd887828c67ec155b064e94d31c62534eb368be609234545f94d"
+    },
+    {
+      "file": "sources.json",
+      "source_package": "decision_explainer",
+      "source_file": "sources.json",
+      "sha256": "8733f60b3a369935b668a9febe8c8249062e33efade94a37500d0409ec8f7d8c"
+    },
+    {
+      "file": "via_public_record_summary.json",
+      "source_package": "decision_explainer",
+      "source_file": "via_public_record_summary.json",
+      "sha256": "7c3b1cd0864835d3121d3bf707eea1d830358ec3735d80449cccdc120438d58f"
+    },
+    {
+      "file": "sources/feb18_staff_report.pdf",
+      "source_package": "sources",
+      "source_file": "feb18_staff_report.pdf",
+      "sha256": "46431aabf81650604fc7bcacdf9fae78faa55db0f2482d785754c032a459cbd9"
+    },
+    {
+      "file": "sources/may19_workshop_packet.pdf",
+      "source_package": "sources",
+      "source_file": "may19_workshop_packet.pdf",
+      "sha256": "7f945c6c5141590ed289634f34a0d2b3133d59dfab737173e514d875f25c2948"
+    },
+    {
+      "file": "sources/q2_2026_storymap.json",
+      "source_package": "sources",
+      "source_file": "q2_2026_storymap.json",
+      "sha256": "d8c87ec02c2e8e327ddd2df3fb2fea06d4be8d3835afe3dd655ed4d40b60bdac"
+    },
+    {
+      "file": "sources/feedback_rendered_text.txt",
+      "source_package": "sources",
+      "source_file": "feedback_rendered_text.txt",
+      "sha256": "62a6f875d9bf0af27cd5698b9091c585fa44c91c7812a12234bca99b87bb120b"
+    },
+    {
+      "file": "sources/code_web_verification.json",
+      "source_package": "sources",
+      "source_file": "code_web_verification.json",
+      "sha256": "bedcfc25f65fc7f60b666d9d8600e2d81c162efc533ed81f0b0439b326f9cd27"
+    },
+    {
+      "file": "sources/post_codification_agenda_screen.json",
+      "source_package": "sources",
+      "source_file": "post_codification_agenda_screen.json",
+      "sha256": "884e6e2de94a146aa0f918850042a096b137682e23a22fad97011ba42070eeb7"
+    },
+    {
+      "file": "visuals/susana-decisions.png",
+      "source_package": "susana_project_visuals_2026-10-26",
+      "source_file": "infographic_01_decisions.png",
+      "sha256": "0716e5e81d7174cde22a1ce7c2c54e1c38f3e52021f592cb76cf3865002fccda"
+    },
+    {
+      "file": "downloads/susana-source-summary.pdf",
+      "source_package": "Downloads",
+      "source_file": "Susana Avenue \u2014 source summary.pdf",
+      "sha256": "4ad30fc8545bc8c3d21e236d519a4cd685a1f392da3000de15d4042a495f4a74"
+    },
+    {
+      "file": "sources/susana-council-report.pdf",
+      "source_package": "susana_hearing_sources_2026-10-26",
+      "source_file": "council_staff_report_2025-06-17.pdf",
+      "sha256": "87daa1092789e7b6e026d4a30f7adf7e0be674b5de7f757ffd9aa8110cf3525e"
+    },
+    {
+      "file": "sources/susana-commission-report.pdf",
+      "source_package": "susana_hearing_sources_2026-10-26",
+      "source_file": "planning_commission_staff_report_2025-03-19.pdf",
+      "sha256": "4c30bad94b28c2eea89757e9de0de620d64096be920098324a1d313a7b6d1b39"
+    }
+  ]
+}

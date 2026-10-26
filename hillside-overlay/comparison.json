@@ -1,0 +1,54 @@
+[
+  {
+    "id": "PRE23-00013",
+    "address": "22209 Susana Avenue",
+    "tier": "Adopted main-house HAA finding",
+    "classification": "main_house_haa_adopted",
+    "protected_scope": "Council Resolution 2025-39 finding 4 applies HAA objective-standard review to the revised main residence in the house-plus-ADU proposal. Staff describes neighborhood compatibility and view-impact criteria as subjective and says those hillside provisions cannot be applied to the revised proposal.",
+    "retained_review": "Staff still evaluates R-1 setbacks, height, lot coverage and floor-area standards; the adopted decision finds objective R-1 compliance and imposes conditions. Height/grade language and corrected issued sheets remain unresolved.",
+    "design_change": "Compared with the July 2024 staff-table version, main interior decreased from 3,225 to 3,126 square feet; a 355-square-foot ADU produces a combined reported increase of 256 square feet. Earlier guest-bedroom/bath space becomes ADU living/bath space with kitchenette fixtures. These are proposal differences, not measured construction or proof of a causal HAA effect.",
+    "decision": "The January and July 2024 house-only hearings were continued. Staff recommended approval of the revised house-only design in July. Council denied the later appeal and upheld approval on June 17, 2025.",
+    "construction": "Main-house and ADU permits show Issued. Revision BLD25-02054-R01 shows Corrections Needed and describes window, bathroom and playroom changes. Final inspection and occupancy are not established.",
+    "sources": [
+      "SUSANA-RES",
+      "SUSANA-STAFF",
+      "LIVE-TWO",
+      "SUSANA-PILOT"
+    ],
+    "unknown": "Corrected issued plan dimensions, reconciled height/grade and area definitions, completed housing and the design change attributable to HAA."
+  },
+  {
+    "id": "PRE24-00007",
+    "address": "5340 Doris Way",
+    "tier": "Staff HAA explanation in official minutes",
+    "classification": "main_house_haa_minutes",
+    "protected_scope": "January 15, 2025 minutes record staff explaining HAA protection for the two-unit proposal, including the two-story primary dwelling. The Commission approved the case and adopted Resolution 24-070, 7\u20130.",
+    "retained_review": "The minutes expressly say local ordinances still apply. The signed resolution and its operative conditions have not been recovered, so the exact treatment of individual hillside findings remains unresolved.",
+    "design_change": "Current applications describe a 2,953-square-foot main house and a 469-square-foot attached ADU. No comparable earlier/approved plan pair has been recovered; whether an ADU was introduced after a house-only version is unknown.",
+    "decision": "The November 2024 hearing was postponed for re-noticing. January 2025 minutes document approval and adoption; a later appeal outcome has not been established.",
+    "construction": "The main-house, ADU and grading records show Corrections Needed. These application-stage observations do not establish issued permits or completed housing.",
+    "sources": [
+      "DORIS-MIN",
+      "DORIS-NOV",
+      "LIVE-TWO"
+    ],
+    "unknown": "Signed operative resolution, earlier versus approved designs, any later appeal/revisions, issuance, final inspections and occupancy."
+  },
+  {
+    "id": "MHE25-00051",
+    "address": "439 Via Linda Vista",
+    "tier": "ADU-specific scope; garage review retained",
+    "classification": "adu_only_no_main_house_haa_established",
+    "protected_scope": "The August 2026 staff packet excludes the separately proposed second-story ADU from discretionary review of the garage MHE. It does not establish main-residence HAA treatment.",
+    "retained_review": "Staff applies R-1 and Hillside review to the proposed 694-square-foot garage. Council's actual August 11 action denied the appeal without prejudice; the packet's draft approval resolution was not the adopted outcome.",
+    "design_change": "The original application mentions 790-square-foot garage/ADU components; the later hearing request is a 694-square-foot garage. A same-parcel October 2026 clearance record describes a 998-square-foot ADU above an existing garage. These are different scopes/records, not a verified sequence of approved enlargements.",
+    "decision": "Council denied the appeal without prejudice, 4\u20130, on August 11, 2026. The earlier Accela Approved label describes an administrative stage and does not supersede the appeal action.",
+    "construction": "PAC26-00107 shows Received as of October 20, 2026. This clearance proposal is not a building permit, proof of approval or completed ADU; its relationship to the earlier proposal needs reconciliation.",
+    "sources": [
+      "VIA-STAFF",
+      "VIA-MIN",
+      "LIVE-VIA"
+    ],
+    "unknown": "Later entitlement outcome, approved scope, linked ADU building permit, final inspection and occupancy."
+  }
+]

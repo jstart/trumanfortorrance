@@ -1,0 +1,80 @@
+[
+  {
+    "id": "HCD-HAA",
+    "title": "HCD HAA fact sheet, April 2026",
+    "url": "https://www.hcd.ca.gov/sites/default/files/docs/planning-and-community/housing-accountability-act.pdf",
+    "locator": "PDF pp1\u20132; general framework, not historical case determination"
+  },
+  {
+    "id": "HCD-ADU",
+    "title": "HCD ADU Handbook, March 2026",
+    "url": "https://www.hcd.ca.gov/sites/default/files/docs/policy-and-research/ADU-Handbook-Update.pdf",
+    "locator": "Permit Applications and Permitting Agencies; general accessory-unit review"
+  },
+  {
+    "id": "SUSANA-RES",
+    "title": "Adopted Council Resolution 2025-39",
+    "url": "https://publicdocs.torranceca.gov/WebLink/DocView.aspx?id=2186738&dbid=0&repo=COT",
+    "locator": "PDF p2 findings4\u20135; conditions on subsequent pages",
+    "local": "sources/SUSANA-RES.pdf"
+  },
+  {
+    "id": "SUSANA-STAFF",
+    "title": "June 17, 2025 Susana staff packet",
+    "url": "https://torranceca.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=79c2c71e-8abd-4ad7-82a7-6ca69465a6cb",
+    "locator": "PDF pp4\u20135,17\u201319,57,59,133\u2013134,229; staff scope, recommendations and design versions"
+  },
+  {
+    "id": "SUSANA-PILOT",
+    "title": "Susana source-page and dated-image pilot",
+    "local": "sources/susana_design_comparison.md",
+    "locator": "Plan excerpts, 2024 continuance minutes and dated imagery; completion unresolved"
+  },
+  {
+    "id": "DORIS-MIN",
+    "title": "January 15, 2025 Planning Commission minutes",
+    "url": "https://publicdocs.torranceca.gov/WebLink/DocView.aspx?id=2182661&dbid=0&repo=COT",
+    "local": "sources/DORIS-MIN.pdf",
+    "locator": "PDF pp6\u20137 / printed pp5\u20136"
+  },
+  {
+    "id": "DORIS-NOV",
+    "title": "November 6, 2024 Planning Commission minutes",
+    "url": "https://publicdocs.torranceca.gov/WebLink/DocView.aspx?id=2179626&dbid=0&repo=COT",
+    "local": "sources/DORIS-NOV.pdf",
+    "locator": "PDF p4; postponement/re-noticing context"
+  },
+  {
+    "id": "VIA-STAFF",
+    "title": "August 11, 2026 Via Linda Vista staff packet",
+    "url": "https://torranceca.primegov.com/api/compilemeetingattachmenthistory/historyattachment/?historyId=1908a58a-dc4d-4059-b20b-d4be28a1b7ab",
+    "locator": "PDF pp1\u20134; July headers and draft approval preserved as source differences",
+    "local": "sources/VIA-STAFF-excerpt.pdf"
+  },
+  {
+    "id": "VIA-MIN",
+    "title": "Adopted August 11, 2026 Council minutes",
+    "url": "https://publicdocs.torranceca.gov/WebLink/DocView.aspx?id=2317195&dbid=0&repo=COT",
+    "locator": "PDF pp7\u201310 / printed pp5\u20138; appeal motion on PDF p10",
+    "local": "sources/VIA-MIN.pdf"
+  },
+  {
+    "id": "LIVE-TWO",
+    "title": "October 26 scoped Susana/Doris API refresh",
+    "local": "sources/current_public_stage_summary.csv",
+    "locator": "16 same-parcel record leads; application, issuance and correction stages kept separate"
+  },
+  {
+    "id": "LIVE-VIA",
+    "title": "October 26 scoped Via Linda Vista API refresh",
+    "local": "via_public_record_summary.json",
+    "locator": "Known same-parcel records refreshed; not a new complete API census"
+  },
+  {
+    "id": "SENIOR-RES",
+    "title": "Adopted Council Resolution 2026-46",
+    "url": "https://publicdocs.torranceca.gov/WebLink/DocView.aspx?id=2308089&dbid=0&repo=COT",
+    "local": "sources/SENIOR-RES.pdf",
+    "locator": "PDF p2 findingd; p5 adoption certification"
+  }
+]
